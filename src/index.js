@@ -7,6 +7,9 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(express.json());
 
+app.use('/', (req, res) => {
+  res.status(200).send('Awake and Listening');
+});
 app.use('/api/items', itemRouter);
 
 app.use((req, res) => {
