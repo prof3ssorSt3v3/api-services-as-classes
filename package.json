@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "PORT=4321 nodemon src/index.js"
   },
   "keywords": [],
   "author": "Prof3ssorSt3v3 <griffis@algonquincollege.com>",
